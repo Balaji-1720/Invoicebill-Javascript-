@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:beige;
+    padding-top: 20px;
+}
+.invoice {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 900px;
+    border-left: 10px solid #4CAF50;
+}
+.invoice header h1 {
+    font-size: 36px;
+    color: #4CAF50; 
+}
+.invoice .company-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #3c8dbc; 
+}
+.invoice p {
+    color: #555;
+}
+.invoice .customer-info input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+}
+.invoice .customer-info input:focus {
+    border-color: #4CAF50; 
+    background-color: #e8f5e9; 
+}
+.invoice table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.invoice table th, .invoice table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.invoice table th {
+    background-color: #4CAF50; 
+    color: white;
+}
+.invoice table td {
+    background-color: #f9f9f9;
+}
+.invoice table td input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #e9f7f1; 
+}
+.invoice table td input:focus {
+    border-color: #4CAF50;
+    background-color: #e8f5e9;
+}
+.invoice .text-end {
+    font-size: 20px;
+    font-weight: bold;
+    color:black; 
+}
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+}
+footer p {
+    margin: 5px 0;
+}
+
+.invoice {
+    background: linear-gradient(135deg, #e0f7fa 0%, #4CAF50 100%);
+}
+.invoice table tbody tr:hover {
+    background-color: #e3f2fd;
+}
